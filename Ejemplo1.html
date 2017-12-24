@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Efecto navideño</title>
+</head>
+<script  src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <link href="css/jQuery.Destellos.css" rel="stylesheet" />
+  <script src="js/jQuery.Destellos.js"></script>
+<body>
+ 
+   
+    <div id="efectos">
+        <img src="img/css3-navidad.jpg" alt="Navidad" class="background-navidad">
+    </div>
+    
+<script>
+  $('#efectos').Destellos({
+				Luces: [
+                    {
+					"x": "240",
+					"y": "145", 
+                    "velocidad":"1s",
+                    "Imagen":"js/estrella.png",
+				    }, 
+					{
+					"x": "360",
+					"y": "80", 
+                    "velocidad":"2s",
+                    "Imagen":"js/estrella.png",
+				    }
+					,
+					{
+					"x": "-22",
+					"y": "59", 
+                    "velocidad":"3s",
+                    "Imagen":"js/estrella.png",
+				    }, 
+                    {
+					"x": "571",
+					"y": "101", 
+                    "velocidad":"5s",
+                    "Imagen":"js/estrella.png",
+				    }
+                    ]});
+                
+	
+    
+</script>
+</body>
+</html>
